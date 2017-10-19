@@ -6,6 +6,42 @@ nav{
 .logo{
     margin-left:6.5%;
 }
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-contenido{
+    
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contenido> * {
+    width: 100%;
+}
+
+.contenido-left{
+    width: 100%;
+    text-align: left;
+    margin-left:  7.1%;
+    margin-right:  7.2%;
+}
+
+.contenido-right{
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-right:  7.1%;
+    margin-left:  7.2%;
+}
+
+mat-checkbox{
+  width: 136px;
+  height: 24px;
+}
+
 footer{
     background-color: #373737;
 }
@@ -51,6 +87,12 @@ footer{
     line-height: 1.2;
     text-align: left;
     color: #373737;
+}
+
+.fondo-contenido{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
 }
 
 .footer-wrapper > hr {
